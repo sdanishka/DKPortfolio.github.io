@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Danish's Portfolio</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav class="nav-bar">
+          <div class="nav-bar-item logo">
+            <a href="#"
+              ><img
+                class="logo"
+                src="./assets/icons/logo.svg"
+                alt="Logo"
+                height="30"
+                width="100"
+            /></a>
+          </div>
+          <div class="nav-bar-item">
+            <img
+              id="humburger"
+              class="menu"
+              src="./assets/icons/menu.png"
+              alt="icon-menu"
+              height="25"
+              width="25"
+            />
+            <img
+              class="menu"
+              src="./assets/icons/close.png"
+              alt="closing icon"
+              id="close"
+            />
+          </div>
+          <ul id="menu-Elements" class="nav-element">
+            <li><a class="menu-item" href="#Portofolio">Portoflio</a></li>
+            <li><a class="menu-item" href="#About">About</a></li>
+            <li><a class="menu-item" href="#Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="landing-section">
+        <section>
+          <div id="title-head">
+            <h1>Hey there. I’m Danish Afridi</h1>
+            <h2 id="landingtext">I’m a software and ML Engineer</h2>
+          </div>
+          <p id="landingtext2">
+            Experience the magic of cutting-edge technology brought to life. As a skilled software and ML engineer, I create elegant 
+            solutions that optimize efficiency, enhance user experiences, and unlock the power of data. Let me transform your ideas 
+            into extraordinary realities.<br />
+          </p>
+          <ul class="social-media-icons">
+            <li class="social-media">
+              <a href="https://twitter.com/SDanishKA10"
+                ><img src="./assets/icons/Social_icon1.png" alt="Twitter"
+              /></a>
+            </li>
+
+            <li class="social-media">
+              <a href="https://www.linkedin.com/in/danish-khan-afridi-094945244/"
+                ><img src="./assets/icons/Social_icon2.png" alt="Linkedin"
+              /></a>
+            </li>
+            <li class="social-media">
+              <a href="https://github.com/sdanishka"
+                ><img src="./assets/icons/Social_icon4.png" alt="Github"
+              /></a>
+            </li>
+          </ul>
+          <a href="#main-heading"
+            ><img class="arrow" src="./assets/icons/down-arrow.svg" alt="ArrowDown"
+          /></a>
+        </section>
+      </div>
+    </div>
+    <section id="Portofolio" class="container2">
+      <h2 id="main-heading">Masterpieces Unveiled...</h2>
+      <img id="indicator" src="./assets/icons/Indicator.svg" alt="indicator" />
+    </section>
+
+    <div class="card-holder">
+      <div class="card-holder-item">
+
+            <div class="holder-image">
+               
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Start  Mobile-->
+
+    <div class="modal" id="modal">
+      
+    </div>
+    <div id="overlay"></div>
+
+    <!-- Modal Ends  -->
+
+    <!-- Modal Start  Desktop-->
+
+    <div class="desk-modal" id="desk-modal">
+      <!-- Fetching from JS -->
+    </div>
+    <div id="Deskoverlay"></div>
+
+    <!-- Modal Ends  -->
+
+    <section id="About" class="about-me">
+      <div id="title">
+        <h2>About me</h2>
+      </div>
+      <p class="about-me-body">
+        Enter the realm of technological brilliance and creative ingenuity. Danish Khan Afridi, 
+        the visionary Software and ML Engineer, illuminates pathways to innovation with intricate 
+        algorithms, empowering solutions, and an unwavering commitment to excellence.
+      </p>
+      <div id="btn-2">
+        <button type="button" class="btn-2" onclick="window.open('Resume-Danish-Khan-Afridi (1).pdf')">Get My Resume</button>
+      </div>
+      
+    </section>
+    <div class="skills">
+      <div class="skils-container">
+        <div class="icon">
+          <!-- <img src="./assets/icons/languages.svg" alt="langauges" /> -->
+        </div>
+        <div class="title">
+          <br><br><br>
+          <h2>Languages</h2>
+        </div><br>
+        <div class="discription">
+          <ul class="skills-tag">
+            <li class="skillstag-item">Python</li>
+            <li class="skillstag-item">C#</li>
+            <li class="skillstag-item">Dart</li>
+            <li class="skillstag-item">HTML</li>
+            <li class="skillstag-item">CSS</li>
+            <li class="skillstag-item">JavaScript</li>
+          </ul>
+        </div>
+      </div>
+      <div class="skils-container">
+        <div class="icon">
+          <!-- <img src="./assets/icons/Framework.svg" alt="Framework" /> -->
+        </div>
+        <div class="title">
+          <br><br><br>
+          <h2>Frameworks</h2>
+        </div><br>
+        <div class="discription">
+          <ul class="skills-tag">
+            <li class="skillstag-item">Tensorflow</li>
+            <li class="skillstag-item">Keras</li>
+            <li class="skillstag-item">Pytorch</li>
+            <li class="skillstag-item">SciKitLearn</li>
+            <li class="skillstag-item">Django</li>
+            <li class="skillstag-item">Flutter</li>
+            <li class="skillstag-item">OpenCV</li>
+            <li class="skillstag-item">NextJS</li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="skils-container">
+        <div class="icon">
+          <!-- <img src="./assets/icons/Skills.svg" alt="Skills" /> -->
+        </div>
+        <div class="title">
+          <br><br><br>
+          <h2>Skills</h2>
+        </div><br><br>
+        <div class="discription">
+          <ul class="skills-tag">
+            <li class="skillstag-item">Computer Vision</li>
+            <li class="skillstag-item">Github</li>
+            <li class="skillstag-item">Machine Learning</li>
+            <li class="skillstag-item">Deeplearning</li>
+            <li class="skillstag-item">Git</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer id="Contact">
+      <div class="inner-footer">
+        <div id="footer-text">
+          
+            <div class="inside-text">
+              I eagerly await the opportunity to engage in captivating conversations about fresh endeavors. 
+              Should you wish to initiate a dialogue, kindly extend your reach, and I shall be delighted to respond.
+            </div>
+          
+        </div>
+        <form
+          id="form"
+          class="mobile-form"
+          action="https://formspree.io/f/mnqwodgq"
+          method="post"
+        >
+          <div class="field">
+            <input
+              type="text"
+              maxlength="30"
+              name="user"
+              placeholder="Full name"
+              required
+            />
+          </div>
+
+          <div class="field">
+            <input
+              type="email"
+              id="email"
+              maxlength="30"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+            <small></small>
+          </div>
+
+          <div class="field">
+            <textarea
+              maxlength="500"
+              name="message"
+              placeholder="Enter text here"
+              required
+            ></textarea>
+            <small></small>
+          </div>
+          <div class="field">
+            <button class="btn-2" type="submit" id="submit">
+              Get in Touch
+            </button>
+            <small id="errors"></small>
+          </div>
+        </form>
+      </div>
+      <div>
+        <div>
+          <ul class="social-media-icons">
+            <li class="social-media">
+              <a href="https://twitter.com/SDanishKA10"
+                ><img src="./assets/icons/Social_icon1.png" alt="Twitter"
+              /></a>
+            </li>
+            <li class="social-media">
+              <a href="https://www.linkedin.com/in/danish-khan-afridi-094945244/"
+                ><img src="./assets/icons/Social_icon2.png" alt="Linkedin"
+              /></a>
+            </li>
+            <li class="social-media">
+              <a href="https://github.com/sdanishka"
+                ><img src="./assets/icons/Social_icon4.png" alt="Github"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="emailfooter">
+          <p>sahibzadadanishkhanafridi@gmail.com</p>
+          <p id="footer-indicator">_____________</p>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
