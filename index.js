@@ -89,8 +89,8 @@ const projects = [
       'An Automatic Machine Learning Tool for Computer vision tasks',
     image: './assets/Projects/mock1.png',
     technologies: ['NextJS', 'Python', 'NodeJS'],
-    liveVersion: 'https://spacex-travellers-hub.herokuapp.com/',
-    source: 'https://github.com/developerwaleed/SpaceX-Traveller-Hub',
+    liveVersion: 'https://sdanishka.github.io/DKPortfolio.github.io/',
+    source: 'https://github.com/sdanishka/DKPortfolio.github.io',
   },
  
   {
@@ -99,8 +99,8 @@ const projects = [
       'tracking system for a fast moving object.',
     image: './assets/Projects/mock3.png',
     technologies: ['Bootstrap', 'Python', 'JavaScript'],
-    liveVersion: 'https://developerwaleed.github.io/Book-Store_Website-V2/',
-    source: 'https://github.com/developerwaleed/Book-Store_Website-V2',
+    liveVersion: 'https://github.com/sdanishka/model-master',
+    source: '#',
   },
 ];
 
